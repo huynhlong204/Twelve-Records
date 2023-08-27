@@ -1,0 +1,48 @@
+.banner-cart {
+    margin-top: 84px;
+    background: url(../Image/banner7.jpg) no-repeat;
+    padding: 12px;
+    background-size: cover;
+    font-size: 42px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+}
+
+.cart-shop {
+    padding-top: 32px;
+    text-align: center;
+}
+
+.cart-shop h2 {
+    text-align: center;
+}
+
+.cart-shop table {
+    width: 100%;
+}
+
+.cart-shop table thead tr th:first-child {
+    text-align: left;
+}
+
+.cart-shop table thead tr th:last-child, .cart-shop table tbody tr td:last-child {
+    text-align: right;
+}
+
+.cart-shop table tr td {
+    border-bottom: 1px solid #ddd;
+    padding: 12px 0;
+}
+
+
+.price-title p {
+    font-weight: bold;
+    padding: 12px 0;
+}
+
+@media (max-width: 362px) {
+    .banner-cart {
+        margin-top: 72px;
+    }
+}
